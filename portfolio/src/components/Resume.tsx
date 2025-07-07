@@ -1,3 +1,5 @@
+'use client'
+
 export default function Resume() {
   const handleDownload = () => {
     // Create a link element and trigger download
