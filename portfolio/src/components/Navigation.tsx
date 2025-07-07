@@ -34,7 +34,7 @@ export default function Navigation() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            {['Home', 'About', 'Resume', 'Projects', 'Skills', 'Contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -64,7 +64,7 @@ export default function Navigation() {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-slate-800/95 backdrop-blur-md rounded-lg mb-4">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {['Home', 'About', 'Resume', 'Projects', 'Skills', 'Contact'].map((item) => (
+              {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}

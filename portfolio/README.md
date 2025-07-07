@@ -34,24 +34,19 @@ A beautiful, responsive portfolio website built with Next.js, TypeScript, and Ta
 - Experience metrics
 - Core technology progress bars
 
-### 3. Resume Section
-- Download button for PDF resume
-- Professional overview cards
-- Updated resume information
-
-### 4. Projects Section
+### 3. Projects Section
 - Filterable project gallery
 - Project categories (Real-time Processing, ETL/ELT, Data Architecture, Analytics)
 - Live demo and GitHub links
 - Technology tags
 
-### 5. Skills Section
+### 4. Skills Section
 - Categorized skill sets
 - Progress visualization
 - Technology icons
 - Additional competencies
 
-### 6. Contact Section
+### 5. Contact Section
 - Contact form with validation
 - Contact information
 - Social media links
@@ -104,25 +99,19 @@ Edit `src/components/About.tsx`:
 - Modify experience metrics
 - Adjust skill levels and technologies
 
-#### 3. Add Your Resume
-Add your resume to the portfolio:
-- Save your resume as `Tejas_Deshkulkarni_Resume.pdf`
-- Place it in the `public/resume/` directory
-- The download button will work automatically
-
-#### 4. Update Projects
+#### 3. Update Projects
 Edit `src/components/Projects.tsx`:
 - Replace project data in the `projects` array
 - Update project titles, descriptions, technologies
 - Add your GitHub and demo links
 
-#### 5. Update Skills
+#### 4. Update Skills
 Edit `src/components/Skills.tsx`:
 - Modify skill categories and levels
 - Update technology icons and names
 - Adjust competencies list
 
-#### 6. Update Contact Information
+#### 5. Update Contact Information
 Edit `src/components/Contact.tsx`:
 - Update email, phone, and location
 - Modify social media links
@@ -155,13 +144,10 @@ portfolio/
 │       ├── Navigation.tsx
 │       ├── Hero.tsx
 │       ├── About.tsx
-│       ├── Resume.tsx
 │       ├── Projects.tsx
 │       ├── Skills.tsx
 │       └── Contact.tsx
 ├── public/
-│   └── resume/
-│       └── Tejas_Deshkulkarni_Resume.pdf
 ├── package.json
 └── README.md
 ```
