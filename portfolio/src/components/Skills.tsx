@@ -1,47 +1,47 @@
 export default function Skills() {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Programming & Query Languages',
       skills: [
-        { name: 'React', level: 90, icon: '⚛️' },
-        { name: 'Next.js', level: 85, icon: '▲' },
-        { name: 'TypeScript', level: 85, icon: '🔷' },
-        { name: 'Tailwind CSS', level: 90, icon: '🎨' },
-        { name: 'JavaScript', level: 95, icon: '🟨' },
-        { name: 'HTML/CSS', level: 95, icon: '🌐' }
+        { name: 'Python', level: 95, icon: '🐍' },
+        { name: 'SQL', level: 95, icon: '🔍' },
+        { name: 'Scala', level: 75, icon: '�' },
+        { name: 'R', level: 70, icon: '📊' },
+        { name: 'Shell Scripting', level: 85, icon: '�' },
+        { name: 'Java', level: 70, icon: '☕' }
       ]
     },
     {
-      title: 'Backend',
+      title: 'Big Data & Processing',
       skills: [
-        { name: 'Node.js', level: 80, icon: '🟢' },
-        { name: 'Python', level: 75, icon: '🐍' },
-        { name: 'Express.js', level: 80, icon: '🚀' },
-        { name: 'Django', level: 70, icon: '🎸' },
-        { name: 'REST APIs', level: 85, icon: '🔌' },
-        { name: 'GraphQL', level: 65, icon: '🔺' }
+        { name: 'Apache Spark', level: 90, icon: '⚡' },
+        { name: 'Apache Kafka', level: 80, icon: '�' },
+        { name: 'Apache Airflow', level: 85, icon: '🌊' },
+        { name: 'Hadoop', level: 75, icon: '🐘' },
+        { name: 'Databricks', level: 80, icon: '🧱' },
+        { name: 'Apache Beam', level: 70, icon: '�' }
       ]
     },
     {
-      title: 'Database & DevOps',
+      title: 'Cloud & Infrastructure',
       skills: [
-        { name: 'PostgreSQL', level: 80, icon: '🐘' },
-        { name: 'MongoDB', level: 75, icon: '🍃' },
-        { name: 'Redis', level: 70, icon: '🔴' },
-        { name: 'Docker', level: 75, icon: '🐳' },
-        { name: 'AWS', level: 65, icon: '☁️' },
-        { name: 'Git', level: 90, icon: '📦' }
+        { name: 'AWS', level: 85, icon: '☁️' },
+        { name: 'Azure', level: 80, icon: '�' },
+        { name: 'GCP', level: 75, icon: '🌟' },
+        { name: 'Docker', level: 85, icon: '🐳' },
+        { name: 'Kubernetes', level: 75, icon: '⚙️' },
+        { name: 'Terraform', level: 70, icon: '🏗️' }
       ]
     },
     {
-      title: 'Tools & Others',
+      title: 'Databases & Storage',
       skills: [
-        { name: 'Figma', level: 75, icon: '🎨' },
-        { name: 'VS Code', level: 95, icon: '💻' },
-        { name: 'Postman', level: 85, icon: '📮' },
-        { name: 'Jest', level: 70, icon: '🃏' },
-        { name: 'Webpack', level: 65, icon: '📦' },
-        { name: 'Linux', level: 75, icon: '🐧' }
+        { name: 'PostgreSQL', level: 90, icon: '🐘' },
+        { name: 'MongoDB', level: 80, icon: '🍃' },
+        { name: 'Redis', level: 75, icon: '�' },
+        { name: 'Snowflake', level: 85, icon: '❄️' },
+        { name: 'BigQuery', level: 80, icon: '�' },
+        { name: 'Cassandra', level: 70, icon: '�' }
       ]
     }
   ]
@@ -55,7 +55,7 @@ export default function Skills() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-8"></div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Here are the technologies and tools I work with to bring ideas to life.
+            Here are the technologies and tools I use to build robust data solutions and analytics platforms.
           </p>
         </div>
 
@@ -100,14 +100,14 @@ export default function Skills() {
         {/* Additional Skills Section */}
         <div className="mt-16 bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8">
           <h3 className="text-2xl font-semibold text-white mb-6 text-center">
-            Other Competencies
+            Data Engineering Competencies
           </h3>
           
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Responsive Design', 'SEO Optimization', 'Performance Optimization', 
-              'Accessibility', 'Agile Methodology', 'Code Review', 'Technical Writing',
-              'UI/UX Design', 'Problem Solving', 'Team Collaboration'
+              'ETL/ELT Pipeline Design', 'Data Warehousing', 'Real-time Data Processing', 
+              'Data Modeling', 'Performance Optimization', 'Data Quality & Governance', 'Stream Processing',
+              'Data Lake Architecture', 'API Development', 'Monitoring & Alerting', 'Data Security', 'MLOps'
             ].map((competency) => (
               <span
                 key={competency}

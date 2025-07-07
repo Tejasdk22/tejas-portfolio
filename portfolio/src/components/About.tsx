@@ -12,25 +12,25 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-white mb-4">
-              Passionate Developer & Problem Solver
+              Data Engineer & Analytics Specialist
             </h3>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              With over 3 years of experience in web development, I specialize in creating 
-              modern, scalable applications using cutting-edge technologies. I'm passionate 
-              about writing clean, efficient code and delivering exceptional user experiences.
+              With expertise in designing and implementing scalable data architectures, I specialize in building 
+              robust ETL/ELT pipelines, optimizing data warehouses, and creating efficient data processing systems. 
+              I'm passionate about turning complex data challenges into streamlined, automated solutions.
             </p>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing 
-              to open source projects, or enjoying outdoor activities. I believe in continuous 
-              learning and staying up-to-date with the latest industry trends.
+              My experience spans across cloud platforms, big data technologies, and real-time data processing. 
+              I believe in creating data systems that are not only powerful but also maintainable and scalable, 
+              enabling organizations to make data-driven decisions with confidence.
             </p>
 
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div className="text-center p-4 bg-slate-800/50 rounded-lg backdrop-blur-sm">
-                <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
-                <div className="text-gray-300">Projects Completed</div>
+                <div className="text-3xl font-bold text-purple-400 mb-2">25+</div>
+                <div className="text-gray-300">Data Pipelines Built</div>
               </div>
               <div className="text-center p-4 bg-slate-800/50 rounded-lg backdrop-blur-sm">
                 <div className="text-3xl font-bold text-pink-400 mb-2">3+</div>
@@ -44,12 +44,12 @@ export default function About() {
               <h4 className="text-xl font-semibold text-white mb-6">Core Technologies</h4>
               <div className="space-y-4">
                 {[
-                  { name: 'React/Next.js', level: 90 },
-                  { name: 'TypeScript', level: 85 },
-                  { name: 'Node.js', level: 80 },
-                  { name: 'Python', level: 75 },
-                  { name: 'Database Design', level: 85 },
-                  { name: 'UI/UX Design', level: 70 }
+                  { name: 'Python/SQL', level: 95 },
+                  { name: 'Apache Spark', level: 85 },
+                  { name: 'AWS/Azure', level: 80 },
+                  { name: 'Apache Kafka', level: 75 },
+                  { name: 'Docker/Kubernetes', level: 80 },
+                  { name: 'Data Warehousing', level: 90 }
                 ].map((skill) => (
                   <div key={skill.name}>
                     <div className="flex justify-between text-sm mb-2">

@@ -8,67 +8,67 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.',
+      title: 'Real-time Analytics Pipeline',
+      description: 'Built a scalable real-time data pipeline using Apache Kafka and Spark Streaming to process millions of events per hour, providing instant analytics for business decision making.',
       image: '/api/placeholder/400/250',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      category: 'Full Stack',
+      technologies: ['Apache Kafka', 'Spark Streaming', 'AWS Kinesis', 'Redis'],
+      category: 'Real-time Processing',
       github: '#',
       demo: '#'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'Data Lake Architecture',
+      description: 'Designed and implemented a data lake on AWS S3 with automated ETL pipelines using Apache Airflow, supporting both batch and streaming data ingestion from multiple sources.',
       image: '/api/placeholder/400/250',
-      technologies: ['Next.js', 'TypeScript', 'Socket.io', 'MongoDB'],
-      category: 'Full Stack',
+      technologies: ['AWS S3', 'Apache Airflow', 'Spark', 'Parquet'],
+      category: 'Data Architecture',
       github: '#',
       demo: '#'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, and historical weather data visualization.',
+      title: 'Customer Analytics Platform',
+      description: 'Developed a comprehensive analytics platform processing customer behavior data, featuring automated data quality checks and ML-ready feature engineering pipelines.',
       image: '/api/placeholder/400/250',
-      technologies: ['React', 'Chart.js', 'Weather API', 'Tailwind'],
-      category: 'Frontend',
+      technologies: ['Python', 'dbt', 'Snowflake', 'Tableau'],
+      category: 'Analytics',
       github: '#',
       demo: '#'
     },
     {
       id: 4,
-      title: 'API Gateway Service',
-      description: 'A microservices API gateway with rate limiting, authentication, and load balancing capabilities built with Node.js and Docker.',
+      title: 'ETL Data Warehouse',
+      description: 'Built a robust ETL system migrating legacy data to a modern cloud data warehouse, implementing data validation, monitoring, and automated failure recovery mechanisms.',
       image: '/api/placeholder/400/250',
-      technologies: ['Node.js', 'Express', 'Redis', 'Docker'],
-      category: 'Backend',
+      technologies: ['PostgreSQL', 'Apache Airflow', 'BigQuery', 'Python'],
+      category: 'ETL/ELT',
       github: '#',
       demo: '#'
     },
     {
       id: 5,
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and dark mode.',
+      title: 'IoT Data Processing System',
+      description: 'Created a scalable IoT data processing system handling sensor data from thousands of devices, with real-time anomaly detection and automated alerting capabilities.',
       image: '/api/placeholder/400/250',
-      technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
-      category: 'Frontend',
+      technologies: ['Apache Kafka', 'Databricks', 'Azure IoT', 'Machine Learning'],
+      category: 'Real-time Processing',
       github: '#',
       demo: '#'
     },
     {
       id: 6,
-      title: 'Social Media Analytics',
-      description: 'A data analytics platform that processes social media data and provides insights through interactive dashboards and reports.',
+      title: 'Financial Data Pipeline',
+      description: 'Designed high-frequency financial data processing pipeline with strict SLA requirements, ensuring data accuracy and compliance for regulatory reporting.',
       image: '/api/placeholder/400/250',
-      technologies: ['Python', 'Django', 'PostgreSQL', 'D3.js'],
-      category: 'Full Stack',
+      technologies: ['Apache Flink', 'TimescaleDB', 'Docker', 'Kubernetes'],
+      category: 'ETL/ELT',
       github: '#',
       demo: '#'
     }
   ]
 
-  const categories = ['All', 'Full Stack', 'Frontend', 'Backend']
+  const categories = ['All', 'Real-time Processing', 'ETL/ELT', 'Data Architecture', 'Analytics']
 
   const filteredProjects = selectedCategory === 'All' 
     ? projects 
@@ -83,7 +83,7 @@ export default function Projects() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-8"></div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and experience in web development.
+            Here are some of my recent data engineering projects that showcase my expertise in building scalable data solutions.
           </p>
         </div>
 

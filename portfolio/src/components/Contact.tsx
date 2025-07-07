@@ -34,7 +34,7 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-8"></div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you!
+            Have a data project in mind or want to discuss data engineering solutions? I'd love to hear from you!
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 transition-colors"
-                  placeholder="Project inquiry"
+                  placeholder="Data engineering consultation"
                 />
               </div>
               
@@ -106,7 +106,7 @@ export default function Contact() {
                   required
                   rows={5}
                   className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 focus:ring-1 focus:ring-purple-400 transition-colors resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about your data engineering needs..."
                 />
               </div>
               
@@ -133,7 +133,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-gray-300 text-sm">Email</p>
-                    <p className="text-white font-medium">john.doe@example.com</p>
+                    <p className="text-white font-medium">tejas.deshkulkarni@example.com</p>
                   </div>
                 </div>
                 

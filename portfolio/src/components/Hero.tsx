@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 export default function Hero() {
   const [displayText, setDisplayText] = useState('')
-  const fullText = "Full Stack Developer"
+  const fullText = "Data Engineer"
   
   useEffect(() => {
     let i = 0
@@ -27,7 +27,7 @@ export default function Hero() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              John Doe
+              Tejas Deshkulkarni
             </span>
           </h1>
           
@@ -38,8 +38,8 @@ export default function Hero() {
           </h2>
           
           <p className="text-lg sm:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            I create beautiful, responsive web applications with modern technologies. 
-            Passionate about clean code, user experience, and bringing ideas to life.
+            I design and build robust data pipelines, optimize data infrastructure, and transform raw data into actionable insights. 
+            Passionate about scalable data solutions, ETL processes, and enabling data-driven decision making.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
