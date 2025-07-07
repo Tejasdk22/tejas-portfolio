@@ -1,0 +1,228 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 3200
+>>
+stream
+BT
+/F1 20 Tf
+50 750 Td
+(Tejas Shripad Deshkulkarni) Tj
+0 -30 Td
+/F2 10 Tf
+(Dallas | TX | 75252 | \(Open to Relocate\) | 669-249-0931) Tj
+0 -15 Td
+(tejasdeshus11@gmail.com | LinkedIn) Tj
+
+0 -40 Td
+/F1 14 Tf
+(PROFESSIONAL EXPERIENCE) Tj
+0 -25 Td
+/F1 12 Tf
+(Data Engineer, Cognizant India) Tj
+350 0 Td
+/F2 10 Tf
+(Jun 2022 – Jun 2024) Tj
+-350 -20 Td
+/F2 10 Tf
+(• Performed data modeling to structure and optimize over 5 million customer and supplier records,) Tj
+0 -12 Td
+(  enhancing accessibility, consistency, and integration within the client's data warehouse) Tj
+0 -12 Td
+(• Developed an ETL pipeline for ingesting and processing large-scale customer and supplier files,) Tj
+0 -12 Td
+(  with PySpark and SQL to manage critical records that boosted accuracy by 98%) Tj
+0 -12 Td
+(• Implemented business rule-based transformations for Foundational Data Products using PySpark,) Tj
+0 -12 Td
+(  driving a 60% increase in accessibility and improving integrity of the records) Tj
+0 -12 Td
+(• Streamlined the transformation of data by optimizing PySpark workflows and utilizing parquet,) Tj
+0 -12 Td
+(  JSON file formats, reducing handling time by 30% and improving visibility) Tj
+0 -12 Td
+(• Automated ETL processes to extract, transform, and load supplier and customer information) Tj
+0 -12 Td
+(  using Control-M, reducing pipeline execution times by 35%) Tj
+0 -12 Td
+(• Enhanced validation for transformed datasets in HDFS using SQL, reducing validation time by 50%) Tj
+0 -12 Td
+(• Optimized Procure-to-Pay \(P2P\) processes in a business spend management platform,) Tj
+0 -12 Td
+(  reducing procurement cycle time by 20 days \(a 65% improvement\)) Tj
+
+0 -25 Td
+/F1 12 Tf
+(Database Intern, Cognizant India) Tj
+300 0 Td
+/F2 10 Tf
+(Feb 2022 – May 2022) Tj
+-300 -20 Td
+/F2 10 Tf
+(• Developed SQL and Python scripts for data validation and analysis, ensuring 99.9% accuracy) Tj
+0 -12 Td
+(• Optimized complex SQL queries and executed efficient CRUD operations) Tj
+
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F1 12 Tf
+(The University of Texas at Dallas) Tj
+250 0 Td
+/F2 10 Tf
+(Aug 2024 - May 2026) Tj
+-250 -15 Td
+/F2 10 Tf
+(• Master of Science, Business Analytics and Artificial Intelligence) Tj
+
+0 -20 Td
+/F1 12 Tf
+(Vishwakarma Institute of Information Technology \(VIIT\), Pune) Tj
+150 0 Td
+/F2 10 Tf
+(Aug 2018 - May 2022) Tj
+-150 -15 Td
+/F2 10 Tf
+(• Bachelor of Technology, Mechanical Engineering) Tj
+
+0 -30 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F1 11 Tf
+(Programming: ) Tj
+/F2 10 Tf
+(Python, R, SQL, C, C++) Tj
+0 -15 Td
+/F1 11 Tf
+(Data Engineering and Data Science: ) Tj
+/F2 10 Tf
+(Hadoop, Spark, ETL, NumPy, Pandas, PyTorch, Data Visualization, Terraform) Tj
+0 -15 Td
+/F1 11 Tf
+(Tools and Platforms: ) Tj
+/F2 10 Tf
+(Databricks, Amazon Web Services \(AWS\), Microsoft Azure, PySpark, MS Excel, Tableau, Git) Tj
+
+0 -30 Td
+/F1 14 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F1 12 Tf
+(Truck Data Analysis) Tj
+350 0 Td
+/F2 10 Tf
+(Aug 2024 – Dec 2024) Tj
+-350 -15 Td
+/F2 10 Tf
+(• Ingested truck, location, and incident data from multiple CSV files into Hadoop and queried) Tj
+0 -12 Td
+(  structured tables in Snowflake to compute risk scores, flagging 53% of fleet drivers as high-risk) Tj
+0 -12 Td
+(• Developed Snowflake SQL logic to correlate mileage, fuel efficiency, and incidents) Tj
+
+0 -20 Td
+/F1 12 Tf
+(Noise Prediction in Urban Districts) Tj
+300 0 Td
+/F2 10 Tf
+(Jan 2025 – May 2025) Tj
+-300 -15 Td
+/F2 10 Tf
+(• Built and evaluated ML models \(LightGBM, SVM, RF\) to predict noise levels from urban sound data) Tj
+0 -12 Td
+(• Delivered insights for urban noise hotspots based on location, time, and sound type) Tj
+
+0 -30 Td
+/F1 14 Tf
+(LEADERSHIP) Tj
+0 -20 Td
+/F1 12 Tf
+(President, Training and Placement Cell | VIIT) Tj
+200 0 Td
+/F2 10 Tf
+(Aug 2021 – May 2022) Tj
+-200 -15 Td
+/F2 10 Tf
+(• Led 10+ "Meet Us" sessions, mentoring 200 students to enhance their application process) Tj
+0 -12 Td
+(• Coordinated with 15+ companies to organize recruitment drives, resulting in a 30% increase) Tj
+
+0 -20 Td
+/F1 12 Tf
+(Team Leader, Entrepreneurship Development Cell | VIIT) Tj
+150 0 Td
+/F2 10 Tf
+(Aug 2018 - May 2019) Tj
+-150 -15 Td
+/F2 10 Tf
+(• Supported the execution of Innovate, an event designed to educate 500+ students about entrepreneurship) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000010 00000 n 
+0000000079 00000 n 
+0000000136 00000 n 
+0000000271 00000 n 
+0000003524 00000 n 
+0000003598 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+3668
+%%EOF
