@@ -136,14 +136,14 @@ export default function Home() {
         
         <div className="text-center z-10 max-w-4xl mx-auto px-6">
           <div className="mb-8">
-            <h1 className="text-6xl md:text-8xl font-extrabold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
               <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent drop-shadow-2xl">
                 {text}
               </span>
               {showCursor && <span className="animate-pulse">|</span>}
             </h1>
             
-            <div className="text-2xl md:text-3xl font-semibold text-white/90 mb-8 h-12">
+            <div className="text-xl md:text-2xl font-semibold text-white/90 mb-8 h-10">
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-500 bg-clip-text text-transparent">
                 {titles[currentTitleIndex]}
               </span>
