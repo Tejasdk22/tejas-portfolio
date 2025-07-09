@@ -188,7 +188,7 @@ export default function Home() {
 
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: "Enterprise Projects", value: "25+", metric: "Delivered" },
+                  { label: "Enterprise Projects", value: "4+", metric: "Delivered" },
                   { label: "Industry Experience", value: "2+", metric: "Years" },
                   { label: "Data Volume Handled", value: "5M+", metric: "Records" },
                   { label: "Performance Optimization", value: "60%", metric: "Improvement" }
