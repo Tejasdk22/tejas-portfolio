@@ -82,7 +82,6 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/20 to-pink-600/20"></div>
         {[...Array(50)].map((_, i) => (
           <div
             key={i}
@@ -129,10 +128,6 @@ export default function Home() {
 
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative">
-        <div 
-          className="absolute inset-0 bg-gradient-to-br from-blue-600/30 to-purple-600/30"
-          style={{ transform: `translateY(${scrollY * 0.5}px)` }}
-        />
         
         <div className="text-center z-10 max-w-4xl mx-auto px-6">
           <div className="mb-8">
