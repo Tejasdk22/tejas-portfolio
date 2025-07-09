@@ -64,17 +64,36 @@ export default function Home() {
       </section>
 
       {/* About Me Section */}
-      <section className="max-w-4xl mx-auto px-4 py-20 text-gray-900">
-        <div className="flex flex-col md:flex-row items-center gap-6 mb-6">
-          <img src="https://media.licdn.com/dms/image/D4D03AQHc5Z0RrEXSDA/profile-displayphoto-shrink_400_400/0/1713655390715?e=1721865600&v=beta&t=FXOCQkGMtZAC2zX-zYM8nYfC9Ln9FMOEFe9BSfxyGP0" alt="Tejas Deshkulkarni" className="w-32 h-32 rounded-full object-cover shadow-lg" />
+      <section className="max-w-5xl mx-auto px-4 mb-20 text-gray-900">
+        <h2 className="text-3xl font-bold mb-10 border-b-2 border-blue-300 inline-block">
+          About Me
+        </h2>
+
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-10">
+          {/* Profile Image */}
+          <div className="flex-shrink-0">
+            <img
+              src="https://media.licdn.com/dms/image/D4D03AQHc5Z0RrEXSDA/profile-displayphoto-shrink_400_400/0/1713655390715?e=1721865600&v=beta&t=FXOCQkGMtZAC2zX-zYM8nYfC9Ln9FMOEFe9BSfxyGP0"
+              alt="Tejas Deshkulkarni"
+              className="w-48 h-48 rounded-xl shadow-lg object-cover"
+            />
+          </div>
+
+          {/* Text Content */}
+          <div className="text-lg leading-relaxed">
+            <p>
+              I'm a <strong>data engineer</strong> with strong expertise in cloud-native pipelines,
+              scalable ETL workflows, and performance optimization. With 2 years at Cognizant and
+              an MS in Business Analytics & AI from UT Dallas, I bring deep technical skills in
+              <strong> Python, Snowflake, Azure, and PySpark</strong>.
+            </p>
+            <p className="mt-4">
+              I love solving real-world problems through structured data and have led projects
+              in domains like supply chain, healthcare, and finance.
+              Let's build something impactful together!
+            </p>
+          </div>
         </div>
-        <h2 className="text-3xl font-bold mb-6 border-b-2 border-blue-300 inline-block">About Me</h2>
-        <p className="leading-relaxed text-lg">
-          I'm a data engineer with experience in building cloud-native ETL pipelines, automating data workflows,
-          and optimizing analytical performance. With a background at Cognizant and an MS in Business Analytics & AI
-          from UT Dallas, I specialize in Python, Snowflake, Azure, and PySpark. I'm passionate about transforming
-          raw data into structured insights that drive business decisions.
-        </p>
       </section>
 
       {/* Projects Section */}
