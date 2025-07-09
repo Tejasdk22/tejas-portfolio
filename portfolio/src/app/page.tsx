@@ -167,49 +167,68 @@ export default function Home() {
       <section id="about" className="py-20 relative">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">
-              About Me
+            <h2 className="text-4xl font-bold text-white mb-4">
+              Professional Overview
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto"></div>
+            <div className="w-24 h-1 bg-white/30 mx-auto"></div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-3xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
+            <div className="relative">
               <img
                 src="https://media.licdn.com/dms/image/D4D03AQHc5Z0RrEXSDA/profile-displayphoto-shrink_400_400/0/1713655390715?e=1721865600&v=beta&t=FXOCQkGMtZAC2zX-zYM8nYfC9Ln9FMOEFe9BSfxyGP0"
                 alt="Tejas Deshkulkarni"
-                className="relative w-full max-w-md mx-auto rounded-3xl shadow-2xl transform group-hover:scale-105 transition-all duration-500"
+                className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
               />
             </div>
 
-            <div className="space-y-6">
-              <div className="backdrop-blur-md bg-white/10 p-8 rounded-3xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-                <p className="text-xl leading-relaxed text-white/90">
-                  I'm a <span className="text-cyan-400 font-semibold">passionate data engineer</span> with expertise in building 
-                  <span className="text-blue-400 font-semibold"> cloud-native pipelines</span> and 
-                  <span className="text-purple-400 font-semibold"> scalable ETL workflows</span>.
+            <div className="space-y-8">
+              <div className="backdrop-blur-md bg-white/5 p-8 rounded-2xl border border-white/10">
+                <h3 className="text-2xl font-semibold text-white mb-4">Data Engineering Professional</h3>
+                <p className="text-lg leading-relaxed text-white/90 mb-4">
+                  Experienced data engineer specializing in cloud-native data architecture, ETL pipeline development, 
+                  and performance optimization. Proven track record of designing and implementing scalable data solutions 
+                  that drive business intelligence and operational efficiency.
                 </p>
-                <p className="text-lg leading-relaxed text-white/80 mt-4">
-                  With <span className="text-emerald-400 font-semibold">2 years at Cognizant</span> and pursuing an 
-                  <span className="text-cyan-400 font-semibold"> MS in Business Analytics & AI</span> at UT Dallas, 
-                  I transform complex data challenges into elegant, actionable solutions.
+                <p className="text-lg leading-relaxed text-white/90">
+                  Currently pursuing Master of Science in Business Analytics & AI at UT Dallas while leveraging 
+                  2+ years of enterprise experience at Cognizant, where I delivered high-impact data engineering 
+                  solutions across healthcare, finance, and supply chain domains.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: "Projects Completed", value: "25+", icon: "🚀" },
-                  { label: "Years Experience", value: "2+", icon: "⏱️" },
-                  { label: "Data Processed", value: "5M+", icon: "📊" },
-                  { label: "Performance Gains", value: "60%", icon: "⚡" }
+                  { label: "Enterprise Projects", value: "25+", metric: "Delivered" },
+                  { label: "Industry Experience", value: "2+", metric: "Years" },
+                  { label: "Data Volume Handled", value: "5M+", metric: "Records" },
+                  { label: "Performance Optimization", value: "60%", metric: "Improvement" }
                 ].map((stat) => (
-                  <div key={stat.label} className="backdrop-blur-md bg-white/10 p-6 rounded-2xl border border-white/20 text-center hover:scale-105 transition-all duration-300">
-                    <div className="text-3xl mb-2">{stat.icon}</div>
-                    <div className="text-2xl font-bold text-cyan-400">{stat.value}</div>
-                    <div className="text-sm text-white/70">{stat.label}</div>
+                  <div key={stat.label} className="backdrop-blur-md bg-white/5 p-6 rounded-xl border border-white/10 text-center">
+                    <div className="text-2xl font-bold text-white mb-1">{stat.value}</div>
+                    <div className="text-sm text-white/60 mb-1">{stat.metric}</div>
+                    <div className="text-xs text-white/50">{stat.label}</div>
                   </div>
                 ))}
+              </div>
+
+              <div className="backdrop-blur-md bg-white/5 p-6 rounded-2xl border border-white/10">
+                <h4 className="text-lg font-semibold text-white mb-3">Core Competencies</h4>
+                <div className="grid grid-cols-2 gap-3">
+                  {[
+                    "Cloud Data Architecture",
+                    "ETL/ELT Pipeline Design", 
+                    "Performance Optimization",
+                    "Data Warehouse Solutions",
+                    "Business Intelligence",
+                    "Cross-functional Collaboration"
+                  ].map((competency) => (
+                    <div key={competency} className="text-sm text-white/80 flex items-center">
+                      <div className="w-2 h-2 bg-white/40 rounded-full mr-3"></div>
+                      {competency}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
