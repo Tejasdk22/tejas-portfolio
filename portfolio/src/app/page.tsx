@@ -94,10 +94,7 @@ export default function Home() {
 
       {/* Glassmorphism Navigation */}
       <nav className="fixed top-0 w-full z-40 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-            Tejas Deshkulkarni
-          </div>
+        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-center items-center">
           <div className="flex gap-8">
             {['Home', 'About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
               <a
