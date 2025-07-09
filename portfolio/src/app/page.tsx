@@ -170,15 +170,7 @@ export default function Home() {
             <div className="w-24 h-1 bg-white/30 mx-auto"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <img
-                src="https://media.licdn.com/dms/image/D4D03AQHc5Z0RrEXSDA/profile-displayphoto-shrink_400_400/0/1713655390715?e=1721865600&v=beta&t=FXOCQkGMtZAC2zX-zYM8nYfC9Ln9FMOEFe9BSfxyGP0"
-                alt="Tejas Deshkulkarni"
-                className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
-              />
-            </div>
-
+          <div className="max-w-4xl mx-auto">
             <div className="space-y-8">
               <div className="backdrop-blur-md bg-white/5 p-8 rounded-2xl border border-white/10">
                 <h3 className="text-2xl font-semibold text-white mb-4">Data Engineering Professional</h3>
