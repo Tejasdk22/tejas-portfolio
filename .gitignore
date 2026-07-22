@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+node_modules/
+/dist/
+.netlify/
+edited-images/
+projects/
+projects/*/.git/
