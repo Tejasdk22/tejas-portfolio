@@ -150,7 +150,8 @@ img {
   background: rgba(244, 246, 238, 0.07);
 }
 
-.desktop-nav a {
+.desktop-nav a,
+.resume-toggle {
   position: relative;
   min-height: 2.35rem;
   padding: 0.58rem 0.9rem;
@@ -162,10 +163,59 @@ img {
   transition: color 160ms ease, background 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
+.resume-toggle {
+  color: var(--on-accent);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  box-shadow: 0 0 0 0 rgba(98, 214, 255, 0.48), 0 10px 28px rgba(98, 214, 255, 0.28);
+  font-weight: 900;
+  animation: resumeHeartbeat 1.35s ease-in-out infinite;
+}
+
 .desktop-nav a:hover,
 .desktop-nav a:focus-visible,
-.desktop-nav a.is-active {
+.desktop-nav a.is-active,
+.resume-toggle:hover,
+.resume-toggle:focus-visible,
+.resume-toggle[aria-expanded="true"] {
   color: var(--ink);
+  background: var(--surface-strong);
+}
+
+.resume-toggle:hover,
+.resume-toggle:focus-visible,
+.resume-toggle[aria-expanded="true"] {
+  color: var(--on-accent);
+  background: linear-gradient(135deg, #8be2ff 0%, #9af0d7 100%);
+  box-shadow: 0 0 0 0.2rem rgba(98, 214, 255, 0.1), 0 14px 36px rgba(98, 214, 255, 0.36);
+}
+
+.nav-menu {
+  position: relative;
+}
+
+.resume-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.6rem);
+  z-index: 50;
+  min-width: 12rem;
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.45rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(20, 43, 78, 0.98);
+  box-shadow: var(--shadow);
+}
+
+.resume-menu a {
+  min-height: 2.5rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: var(--radius);
+}
+
+.resume-menu a:hover,
+.resume-menu a:focus-visible {
   background: var(--surface-strong);
 }
 
@@ -416,54 +466,7 @@ h3 {
 .hero-visual {
   position: relative;
   display: grid;
-  gap: 1.15rem;
   justify-items: center;
-}
-
-.hero-resume-actions {
-  justify-self: end;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.35rem;
-  border: 1px solid rgba(246, 249, 255, 0.26);
-  border-radius: 999px;
-  background: rgba(246, 249, 255, 0.1);
-  box-shadow: 0 0 0 0 rgba(98, 214, 255, 0.48), 0 16px 42px rgba(98, 214, 255, 0.28);
-  animation: resumeHeartbeat 1.35s ease-in-out infinite;
-}
-
-.hero-resume-button {
-  min-height: 2.65rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.7rem 1rem;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  color: var(--on-accent);
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
-  font-size: 0.92rem;
-  font-weight: 900;
-  white-space: nowrap;
-  transition: transform 160ms ease, background 160ms ease, box-shadow 160ms ease;
-}
-
-.hero-resume-button-secondary {
-  color: var(--ink);
-  background: var(--surface);
-  border-color: var(--line);
-}
-
-.hero-resume-button:hover,
-.hero-resume-button:focus-visible {
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 0 0 0.22rem rgba(98, 214, 255, 0.1);
-}
-
-.hero-resume-button-secondary:hover,
-.hero-resume-button-secondary:focus-visible {
-  background: var(--surface-strong);
 }
 
 @keyframes resumeHeartbeat {
@@ -1208,7 +1211,7 @@ a.contact-card:hover {
     animation: none;
   }
 
-  .hero-resume-actions {
+  .resume-toggle {
     animation: none;
   }
 }
