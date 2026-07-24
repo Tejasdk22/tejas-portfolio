@@ -152,6 +152,7 @@ img {
 
 .desktop-nav a,
 .resume-toggle {
+  position: relative;
   min-height: 2.35rem;
   padding: 0.58rem 0.9rem;
   border: 0;
@@ -160,6 +161,39 @@ img {
   background: transparent;
   font-size: 0.92rem;
   transition: color 160ms ease, background 160ms ease;
+}
+
+.resume-toggle::after {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  right: 0.48rem;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 999px;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 0 rgba(126, 230, 197, 0.62), 0 0 14px rgba(126, 230, 197, 0.86);
+  animation: resumeBlink 1.45s ease-out infinite;
+}
+
+@keyframes resumeBlink {
+  0% {
+    opacity: 1;
+    transform: scale(0.92);
+    box-shadow: 0 0 0 0 rgba(126, 230, 197, 0.62), 0 0 14px rgba(126, 230, 197, 0.86);
+  }
+
+  70% {
+    opacity: 0.55;
+    transform: scale(1);
+    box-shadow: 0 0 0 0.48rem rgba(126, 230, 197, 0), 0 0 12px rgba(126, 230, 197, 0.56);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(0.92);
+    box-shadow: 0 0 0 0 rgba(126, 230, 197, 0), 0 0 14px rgba(126, 230, 197, 0.86);
+  }
 }
 
 .desktop-nav a:hover,
@@ -1160,6 +1194,10 @@ a.contact-card:hover {
   }
 
   .services-fab {
+    animation: none;
+  }
+
+  .resume-toggle::after {
     animation: none;
   }
 }
