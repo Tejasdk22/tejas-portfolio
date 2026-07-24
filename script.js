@@ -2,8 +2,6 @@ const header = document.querySelector(".site-header");
 const cursorLight = document.querySelector(".cursor-light");
 const menuToggle = document.querySelector(".menu-toggle");
 const mobileNav = document.querySelector(".mobile-nav");
-const resumeToggle = document.querySelector(".resume-toggle");
-const resumeMenu = document.querySelector(".resume-menu");
 const heroLede = document.querySelector("[data-type-text]");
 const scrollProgress = document.querySelector(".scroll-progress");
 const servicesFab = document.querySelector(".services-fab");
@@ -45,17 +43,9 @@ function updateActiveNavigation() {
 
 function toggleMenu(forceOpen) {
   const willOpen = typeof forceOpen === "boolean" ? forceOpen : menuToggle.getAttribute("aria-expanded") !== "true";
-  if (willOpen) toggleResumeMenu(false);
   menuToggle.setAttribute("aria-expanded", String(willOpen));
   mobileNav.hidden = !willOpen;
   document.body.classList.toggle("menu-open", willOpen);
-}
-
-function toggleResumeMenu(forceOpen) {
-  if (!resumeToggle || !resumeMenu) return;
-  const willOpen = typeof forceOpen === "boolean" ? forceOpen : resumeToggle.getAttribute("aria-expanded") !== "true";
-  resumeToggle.setAttribute("aria-expanded", String(willOpen));
-  resumeMenu.hidden = !willOpen;
 }
 
 function toggleServices(forceOpen) {
@@ -133,10 +123,6 @@ mobileNav.addEventListener("click", (event) => {
   if (event.target.matches("a")) toggleMenu(false);
 });
 
-if (resumeToggle) {
-  resumeToggle.addEventListener("click", () => toggleResumeMenu());
-}
-
 if (servicesFab) {
   servicesFab.addEventListener("click", () => toggleServices());
 }
@@ -146,14 +132,12 @@ document.querySelectorAll(".service-tab").forEach((tab) => {
 });
 
 document.addEventListener("click", (event) => {
-  if (resumeMenu && resumeToggle && !event.target.closest(".nav-menu")) toggleResumeMenu(false);
   if (!event.target.closest(".floating-services")) toggleServices(false);
 });
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     toggleMenu(false);
-    toggleResumeMenu(false);
     toggleServices(false);
   }
 });
