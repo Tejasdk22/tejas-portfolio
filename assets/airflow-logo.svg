@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Apache Airflow logo">
+  <circle cx="32" cy="32" r="7" fill="#017cee"/>
+  <path fill="#00c7d4" d="M31 4c7 7 9 15 5 25l-6-4c-5-8-4-15 1-21Z"/>
+  <path fill="#00ad46" d="M60 31c-7 7-15 9-25 5l4-6c8-5 15-4 21 1Z"/>
+  <path fill="#f7941d" d="M33 60c-7-7-9-15-5-25l6 4c5 8 4 15-1 21Z"/>
+  <path fill="#e52b50" d="M4 33c7-7 15-9 25-5l-4 6c-8 5-15 4-21-1Z"/>
+</svg>

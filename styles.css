@@ -605,12 +605,21 @@ h3 {
   min-height: 2.8rem;
   display: inline-flex;
   align-items: center;
+  gap: 0.55rem;
   padding: 0.7rem 0.85rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.16);
+  font-weight: 800;
   transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.skill-logo {
+  width: 1.45rem;
+  height: 1.45rem;
+  flex: 0 0 1.45rem;
+  object-fit: contain;
 }
 
 .skill-pill:hover {
@@ -897,10 +906,11 @@ a.contact-card:hover {
   gap: 0.55rem;
 }
 
-.service-tool-grid span {
+.service-tool-grid > span {
   min-height: 2.35rem;
   display: inline-flex;
   align-items: center;
+  gap: 0.5rem;
   padding: 0.55rem 0.75rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);

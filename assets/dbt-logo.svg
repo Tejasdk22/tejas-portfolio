@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="dbt logo">
+  <circle cx="32" cy="32" r="28" fill="#ff694b"/>
+  <circle cx="32" cy="32" r="18" fill="none" stroke="#f6f9ff" stroke-width="4"/>
+  <path fill="#f6f9ff" d="M22 39V21h7.3c5.5 0 9.3 3.7 9.3 9s-3.8 9-9.3 9H22Zm4.2-3.8h3c3.1 0 5.1-2.1 5.1-5.2s-2-5.2-5.1-5.2h-3v10.4ZM41 39V21h4.2v6.3h5.1v3.8h-5.1V39H41Z"/>
+</svg>
