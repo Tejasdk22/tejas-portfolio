@@ -729,6 +729,19 @@ h3 {
   text-transform: uppercase;
 }
 
+.contact-card-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.contact-logo {
+  width: 1.55rem;
+  height: 1.55rem;
+  flex: 0 0 1.55rem;
+  object-fit: contain;
+}
+
 .contact-card {
   min-height: 6.5rem;
   display: flex;
