@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Microsoft Excel logo">
+  <path fill="#185c37" d="M24 8h28c2.2 0 4 1.8 4 4v40c0 2.2-1.8 4-4 4H24V8Z"/>
+  <path fill="#21a366" d="M24 14h28v9H24zM24 27h28v9H24zM24 40h28v10H24z"/>
+  <path fill="#107c41" d="M8 15.5 28 12v40L8 48.5c-2.3-.4-4-2.4-4-4.8V20.3c0-2.4 1.7-4.4 4-4.8Z"/>
+  <path fill="#f6f9ff" d="m10.8 23.4 5.1 8.5-5.4 8.8h4.7l3.2-5.7 3.3 5.7h4.9L21 31.8l5.2-8.4h-4.7l-2.9 5.2-3-5.2h-4.8Z"/>
+</svg>
